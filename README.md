@@ -21,7 +21,7 @@ npm install
 
 - Run in dev mode
 ```
-npm run dev
+FILE_PATH="resources/patients.csv" npm run dev
 ```
 
 - Build the project for production
@@ -31,7 +31,7 @@ npm run build
 
 - Run in production
 ```
-npm start
+FILE_PATH="resources/patients.csv" npm start
 ```
 
 - Run unit tests
